@@ -1,0 +1,28 @@
+cookieParser
+session
+passport.initialize
+passport.session
+app.router
+port 
+listen
+
+
+[ORDER IN APP JS MATTERS]
+
+What i have done until now
+1. morgan declaration
+2. configure environment
+3. passport declaration
+4. db connect
+5. express declaration
+6. logging morgan
+7. passport middleware
+    A/ initialize
+    B/ session
+8. static folder
+9. routing
+1o. session start
+11. port
+12. listening
+
+

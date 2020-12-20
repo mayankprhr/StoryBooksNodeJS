@@ -5,7 +5,7 @@ const UserSchema=new mongoose.Schema({
         type:String,
         required:true
     },
-    DisplayName:{
+    displayName:{
         type:String,
         required:true
     },
@@ -22,7 +22,7 @@ const UserSchema=new mongoose.Schema({
     },
     CreatedAt:{
         type:Date,
-        required:Date.now
+        default:Date.now
     },
 
 })
